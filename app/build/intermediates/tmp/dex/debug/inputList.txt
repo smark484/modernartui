@@ -1,0 +1,2 @@
+D:\Projects\modernartui\app\build\intermediates\classes\debug
+D:\Projects\modernartui\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-5cf530e9160d069452ee3b60a727af2da442d9c2.jar

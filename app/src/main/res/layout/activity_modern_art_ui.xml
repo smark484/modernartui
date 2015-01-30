@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.smark.modernartui.ModernArtUiActivity" >
+
+    <LinearLayout 
+        android:id="@+id/ColoredViewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/seekBar"
+        android:baselineAligned="false"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="40" >
+
+        <View
+        android:id="@+id/coloredview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99aabb"
+            android:layout_weight="20"
+            />
+        <View
+        android:id="@+id/coloredview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bbaa99"
+            android:layout_weight="20"/>        
+        <View
+        android:id="@+id/coloredview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bbaacc"
+            android:layout_weight="20"/>        
+        <View
+        android:id="@+id/coloredview4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaccbb"
+            android:layout_weight="20"/>        
+        <View
+        android:id="@+id/coloredview5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aa77bb"
+            android:layout_weight="20"/>        
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="60"
+        >
+         <View
+        android:id="@+id/coloredview6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aabbcc"
+            android:layout_weight="33"/>
+        <View
+        android:id="@+id/coloredview7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AAAAAA"
+            android:layout_weight="34"/>   
+        <View
+        android:id="@+id/coloredview8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ccaabb"
+            android:layout_weight="33"/>                          
+    </LinearLayout>
+  </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView 
+        android:id="@+id/progressValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+        />
+
+
+</RelativeLayout>
